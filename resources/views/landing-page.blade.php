@@ -17,6 +17,8 @@
         rel="stylesheet">
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-CQYS9DcX.css') }}" data-navigate-track="reload"/>
+    <script type="module" src="{{ asset('build/assets/app-C9pRe2dr.js') }}" data-navigate-track="reload"></script> 
 </head>
 
 <body class="font-poppins">
@@ -24,7 +26,7 @@
 
     <nav class="bg-blue-900 border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
-            <a href="https://localhost" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 {{-- <img src="{{ asset('images/logo/security-logo.png') }}" class="h-8" alt="PT. Dinar Mutiara Sakti Bersinar Logo" /> --}}
                 <span class="self-center md:text-2xl text-lg font-semibold whitespace-nowrap text-gray-100">PT. Dinar
                     Mutiara Sakti
