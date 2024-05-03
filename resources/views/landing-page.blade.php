@@ -17,7 +17,7 @@
         rel="stylesheet">
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ asset('build/assets/app-Ca-BvqIp.css') }}" data-navigate-track="reload"/>
+    <link rel="stylesheet" href="{{ asset('build/assets/app-BuKgvgYK.css') }}" data-navigate-track="reload"/>
     <script type="module" src="{{ asset('build/assets/app-C9pRe2dr.js') }}" data-navigate-track="reload"></script> 
 </head>
 
@@ -67,7 +67,7 @@
 
 
 
-    <section class="bg-gray-50 dark:bg-gray-900">
+    <section class="bg-gray-50 dark:bg-gray-900 overflow-hidden">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-0">
             <div class="grid md:grid-cols-2 gap-8 items-center">
                 <div class="md:py-1 py-8" data-aos="fade-right">
@@ -107,7 +107,7 @@
         </div>
     </section>
 
-    <section id="layanan" class="bg-blue-900 dark:bg-gray-900">
+    <section id="layanan" class="bg-blue-900 dark:bg-gray-900 overflow-hidden">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-white text-center md:pb-8 pb-6">Layanan</h1>
             <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter"
@@ -174,7 +174,7 @@
     </section>
 
 
-    <section id="visimisi" class="bg-gray-100 dark:bg-gray-900">
+    <section id="visimisi" class="bg-gray-100 dark:bg-gray-900 overflow-hidden">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Visi & Misi</h1>
             <div class="grid md:grid-cols-2 gap-8">
@@ -240,13 +240,13 @@
         </div>
     </section>
 
-    <section id="alamat" class="bg-gray-100 dark:bg-gray-900">
+    <section id="alamat" class="bg-gray-100 dark:bg-gray-900 overflow-hidden">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Alamat</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <iframe data-aos="zoom-in"
+                <iframe data-aos="zoom-in" class="md:w-full w-auto md:h-[300px]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.547351122548!2d123.05486488279901!3d0.5464874184035873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32792b33c1598faf%3A0x20acc14cd3fed12!2sMoodu%2C%20Kec.%20Kota%20Tim.%2C%20Kota%20Gorontalo%2C%20Gorontalo!5e0!3m2!1sid!2sid!4v1714720860226!5m2!1sid!2sid"
-                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <p class="text-lg pb-4 text-gray-500 pl-5">
                     Jalan Sultan Botutihe No. 128
@@ -261,7 +261,7 @@
 
 
 
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="bg-white dark:bg-gray-900 overflow-hidden">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <p class="text-sm text-gray-500 text-center dark:text-gray-400">
                 © 2024 PT. Dinar
