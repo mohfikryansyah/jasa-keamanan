@@ -241,7 +241,7 @@
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Alamat</h1>
             <p class="text-lg pb-4 text-gray-500">
-                Jalan Sultan Botutihe
+                Jalan Sultan Botutihe No. 128
                 RT 001 RW 001
                 Kelurahan Moodu Kecamatan Kota Timur
                 Kota Gorontalo
