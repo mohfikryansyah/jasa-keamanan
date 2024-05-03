@@ -17,7 +17,7 @@
         rel="stylesheet">
 
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ asset('build/assets/app-BuKgvgYK.css') }}" data-navigate-track="reload"/>
+    <link rel="stylesheet" href="{{ asset('build/assets/app-BQlqBNi3.css') }}" data-navigate-track="reload"/>
     <script type="module" src="{{ asset('build/assets/app-C9pRe2dr.js') }}" data-navigate-track="reload"></script> 
 </head>
 
@@ -51,13 +51,13 @@
                         <a href="#layanan" class="text-gray-900 dark:text-white hover:underline">Layanan</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline">Pemeliharaan</a>
+                        <a href="#visimisi" class="text-gray-900 dark:text-white hover:underline truncate">Visi & Misi</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline truncate">Visi & Misi</a>
+                        <a href="#pemeliharaan" class="text-gray-900 dark:text-white hover:underline">Pemeliharaan</a>
                     </li>
                     <li>
-                        <a href="#" class="text-gray-900 dark:text-white hover:underline">Pelaporan</a>
+                        <a href="#pelaporan" class="text-gray-900 dark:text-white hover:underline">Pelaporan</a>
                     </li>
                 </ul>
             </div>
@@ -152,7 +152,7 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div class="bg-gray-300 p-6 rounded-lg hover:scale-105 transition duration-300" data-aos="fade-up">
+                <div id="pelaporan" class="bg-gray-300 p-6 rounded-lg hover:scale-105 transition duration-300" data-aos="fade-up">
                     <h1 class="text-3xl font-semibold text-gray-800 pb-3">Pelaporan</h1>
                     <p class="mb-8 text-lg font-light text-gray-800 lg:text-md dark:text-gray-400 font-inter">
                         PT. Dinar Mutiara Sakti Bersinar wajib melakukan pelaporan setiap harinya, setiap minggu dan
@@ -160,7 +160,7 @@
                         dan kenyamanan bagi pengguna.
                     </p>
                 </div>
-                <div class="bg-gray-300 p-6 rounded-lg hover:scale-105 transition duration-300" data-aos="fade-up">
+                <div id="pemeliharaan" class="bg-gray-300 p-6 rounded-lg hover:scale-105 transition duration-300" data-aos="fade-up">
                     <h1 class="text-3xl font-semibold text-gray-800 pb-3">Pemeliharaan</h1>
                     <p class="mb-8 text-lg font-light text-gray-800 lg:text-md dark:text-gray-400 font-inter">
                         Proses Pemeliharaan merupakan hal penting bagi perusahan kami. mempertahankan layanan
@@ -243,12 +243,13 @@
     <section id="alamat" class="bg-gray-100 dark:bg-gray-900 overflow-hidden">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Alamat</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <iframe data-aos="zoom-in" class="md:w-full w-auto md:h-[300px]"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.547351122548!2d123.05486488279901!3d0.5464874184035873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32792b33c1598faf%3A0x20acc14cd3fed12!2sMoodu%2C%20Kec.%20Kota%20Tim.%2C%20Kota%20Gorontalo%2C%20Gorontalo!5e0!3m2!1sid!2sid!4v1714720860226!5m2!1sid!2sid"
-                style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <p class="text-lg pb-4 text-gray-500 pl-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+                    <iframe data-aos="zoom-in" class="w-full h-[300px]"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.547351122548!2d123.05486488279901!3d0.5464874184035873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32792b33c1598faf%3A0x20acc14cd3fed12!2sMoodu%2C%20Kec.%20Kota%20Tim.%2C%20Kota%20Gorontalo%2C%20Gorontalo!5e0!3m2!1sid!2sid!4v1714720860226!5m2!1sid!2sid"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="text-lg text-gray-500 md:pl-5">
                     Jalan Sultan Botutihe No. 128
                     RT 001 RW 001
                     Kelurahan Moodu Kecamatan Kota Timur
