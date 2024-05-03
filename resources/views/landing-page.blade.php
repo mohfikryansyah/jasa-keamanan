@@ -16,8 +16,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <link rel="stylesheet" href="{{ asset('build/assets/app-CQYS9DcX.css') }}" data-navigate-track="reload"/>
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    <link rel="stylesheet" href="{{ asset('build/assets/app-Ca-BvqIp.css') }}" data-navigate-track="reload"/>
     <script type="module" src="{{ asset('build/assets/app-C9pRe2dr.js') }}" data-navigate-track="reload"></script> 
 </head>
 
@@ -110,18 +110,21 @@
     <section id="layanan" class="bg-blue-900 dark:bg-gray-900">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-white text-center md:pb-8 pb-6">Layanan</h1>
-            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter" data-aos="fade-up">
+            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter"
+                data-aos="fade-up">
                 Personil Keamanan kami menerima beberapa Pelatihan yang paling Komprehensif yang tersedia saat ini dan
                 dilengkapi dengan Sertifikat Security, kerja Profesional serta laporan mendetail setiap harinya, kami
                 menjaga Keamanan dengan Standar Kualitas yang tinggi dan Profesional.
             </p>
-            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter" data-aos="fade-up">
+            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter"
+                data-aos="fade-up">
                 PT. Dinar Mutiara Sakti Bersinar menyediakan Jasa Tenaga Pengamanan/Security/Satpam untuk menjadi
                 penanggung jawab dan pengelolaan pengamanan di berbagai jenis usaha yang dimiliki oleh para klien.
                 Dengan berbagai pengalaman yang kami miliki serta para personil yang terampil dan profesional di
                 bidangnya kami siap mengamankan serta menjaga dan menjadi solusi terbaik untuk masalah keamanan Anda.
             </p>
-            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter" data-aos="fade-up">
+            <p class="mb-8 text-lg font-light text-gray-300 lg:text-md dark:text-gray-400 font-inter"
+                data-aos="fade-up">
                 Kami merupakan Perusahaan Outsourcing terpercaya yang memiliki jaringan luas. Kami memiliki Sertifikat
                 serta Legalitas yang lengkap dan sesuai Normatif Pemerintah / mengikuti aturan Pemerintah yang berlaku.
                 Tim Manajemen yang lengkap: Development, Oprasional, Rekrutmen, HRD yang berdedikasi pada bidangnya
@@ -131,18 +134,18 @@
             </p>
 
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 pb-7">
-                <div
-                    class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300" data-aos="fade-right">
+                <div class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300"
+                    data-aos="fade-right">
                     <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/layanan/gedung-apart.png') }}"
                         alt="">
                 </div>
-                <div
-                    class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300" data-aos="fade-up">
+                <div class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300"
+                    data-aos="fade-up">
                     <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/layanan/pabrik.png') }}"
                         alt="">
                 </div>
-                <div
-                    class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300" data-aos="fade-left">
+                <div class="bg-gray-300 rounded-lg shadow-xl border border-gray-300 border-opacity-25 hover:scale-105 transition duration-300"
+                    data-aos="fade-left">
                     <img class="h-auto max-w-full rounded-lg" src="{{ asset('images/layanan/bank.png') }}"
                         alt="">
                 </div>
@@ -175,8 +178,8 @@
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Visi & Misi</h1>
             <div class="grid md:grid-cols-2 gap-8">
-                <div
-                    class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12" data-aos="fade-up-right">
+                <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
+                    data-aos="fade-up-right">
 
                     <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Visi</h2>
                     <p class="text-md font-normal text-gray-500 dark:text-gray-400 mb-4">
@@ -205,8 +208,8 @@
                         </p>
                     </blockquote>
                 </div>
-                <div
-                    class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12" data-aos="fade-up-left">
+                <div class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-8 md:p-12"
+                    data-aos="fade-up-left">
                     <h2 class="text-gray-900 dark:text-white text-3xl font-extrabold mb-2">Misi</h2>
                     <p class="text-md font-normal text-gray-500 dark:text-gray-400 mb-4">
                         PT. Dinar Mutiara Sakti Bersinar melakukan perekrutan, pelatihan, penempatan dan pengembangan
@@ -240,16 +243,18 @@
     <section id="alamat" class="bg-gray-100 dark:bg-gray-900">
         <div class="md:py-8 py-6 px-4 mx-auto max-w-screen-lg">
             <h1 class="text-3xl font-semibold text-gray-800 text-center md:pb-8 pb-6">Alamat</h1>
-            <p class="text-lg pb-4 text-gray-500">
-                Jalan Sultan Botutihe No. 128
-                RT 001 RW 001
-                Kelurahan Moodu Kecamatan Kota Timur
-                Kota Gorontalo
-            </p>
-            <iframe data-aos="zoom-in"
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <iframe data-aos="zoom-in"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.547351122548!2d123.05486488279901!3d0.5464874184035873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32792b33c1598faf%3A0x20acc14cd3fed12!2sMoodu%2C%20Kec.%20Kota%20Tim.%2C%20Kota%20Gorontalo%2C%20Gorontalo!5e0!3m2!1sid!2sid!4v1714720860226!5m2!1sid!2sid"
-                width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p class="text-lg pb-4 text-gray-500 pl-5">
+                    Jalan Sultan Botutihe No. 128
+                    RT 001 RW 001
+                    Kelurahan Moodu Kecamatan Kota Timur
+                    Kota Gorontalo
+                </p>
+            </div>
         </div>
     </section>
 
@@ -258,11 +263,11 @@
 
     <footer class="bg-white dark:bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <p class="text-sm text-gray-500 text-center dark:text-gray-400">
-                    © 2024. PT. Dinar
-                    Mutiara Sakti
-                    Bersinar
-                </p>
+            <p class="text-sm text-gray-500 text-center dark:text-gray-400">
+                © 2024 PT. Dinar
+                Mutiara Sakti
+                Bersinar
+            </p>
         </div>
     </footer>
 
